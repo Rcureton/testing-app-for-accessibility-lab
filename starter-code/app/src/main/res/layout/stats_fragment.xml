@@ -19,7 +19,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="4"
-            android:text="General Overview" />
+            android:text="General Overview"
+            android:contentDescription="overview button"
+            android:clickable="true"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -39,7 +41,9 @@
             android:inputType="number"
             android:maxLength="5"
             android:textSize="18sp"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:contentDescription="zip code"
+            android:clickable="true"/>
 
     </LinearLayout>
 
@@ -47,7 +51,9 @@
         android:id="@+id/inner_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8" />
+        android:layout_weight="8"
+        android:contentDescription="view pager"
+        android:clickable="true"/>
 
 </LinearLayout>
 

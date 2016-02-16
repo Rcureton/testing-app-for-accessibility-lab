@@ -23,7 +23,9 @@
             android:layout_weight="3"
             android:text="Filter"
             android:textStyle="bold"
-            android:textColor="@color/primary" />
+            android:textColor="@color/primary"
+            android:contentDescription="Filter button"
+            android:clickable="true"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -51,7 +53,9 @@
                 android:hint="Search by location                                     "
                 android:imeOptions="actionGo"
                 android:textSize="18dp"
-                android:focusable="true"/>
+                android:focusable="true"
+                android:contentDescription="search for location"
+                android:clickable="true"/>
 
         </HorizontalScrollView>
 
@@ -78,7 +82,8 @@
             app:elevation="6dp"
             app:pressedTranslationZ="6dp"
             app:rippleColor="@color/primary_dark"
-            android:contentDescription="@string/add_instance"/>
+            android:contentDescription="@string/add_instance"
+            android:clickable="true"/>
 
     </RelativeLayout>
 </LinearLayout>

@@ -21,7 +21,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/no_harassment"
-                style="@style/no_harassment_message" />
+                style="@style/no_harassment_message"
+                android:contentDescription="no harrassment has been reported"
+                android:clickable="true"/>
 
             <TextView
                 android:id="@+id/chart_header"
@@ -68,6 +70,8 @@
             android:layout_marginEnd="15dp"
             app:materialIcon="arrow_right_bold"
             app:materialIconColor="#ffffff"
+            android:contentDescription="Go to next page"
+            android:clickable="true"
             />
 
     </RelativeLayout>

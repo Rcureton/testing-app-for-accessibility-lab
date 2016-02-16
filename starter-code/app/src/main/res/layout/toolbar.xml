@@ -15,6 +15,8 @@
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:elevation="2dp"
-        app:layout_scrollFlags="scroll|enterAlways" />
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:contentDescription="contains maps, stats, and profile"
+        android:clickable="true"/>
 
 </android.support.v7.widget.Toolbar>

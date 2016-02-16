@@ -43,13 +43,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Location"
-                    style="@style/detail_title"/>
+                    style="@style/detail_title"
+                    android:contentDescription="location details"
+                    android:clickable="true"/>
 
                 <TextView
                     android:id="@+id/where"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/detail_info"/>
+                    style="@style/detail_info"
+                    android:contentDescription="where"
+                    android:clickable="true"/>
             </LinearLayout>
 
             <LinearLayout
@@ -66,13 +70,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Time"
-                    style="@style/detail_title"/>
+                    style="@style/detail_title"
+                    android:contentDescription="details"
+                    android:clickable="true"/>
 
                 <TextView
                     android:id="@+id/when"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/detail_info"/>
+                    style="@style/detail_info"
+                    android:contentDescription="when"
+                    android:clickable="true"/>
             </LinearLayout>
 
             <LinearLayout
@@ -140,6 +148,8 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/where"
+                android:contentDescription="where image"
+                android:clickable="true"
                 />
 
             <ImageView
@@ -149,6 +159,8 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/when"
+                android:contentDescription="when image"
+                android:clickable="true"
                 />
 
             <ImageView
@@ -158,6 +170,8 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/who"
+                android:contentDescription="who image"
+                android:clickable="true"
                 />
 
             <ImageView
@@ -167,6 +181,8 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/what"
+                android:contentDescription="what image"
+                android:clickable="true"
                 />
 
         </LinearLayout>
